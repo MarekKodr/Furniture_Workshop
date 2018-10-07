@@ -36,7 +36,7 @@ public class Generator extends TemplateModuleInterpreted2 {
   public Collection<SLanguage> getTargetLanguages() {
     SLanguage[] rv = new SLanguage[3];
     rv[0] = MetaAdapterFactory.getLanguage(0x29014caab3794a9fL, 0x8700a98a0df4a14eL, "CSS");
-    rv[1] = MetaAdapterFactory.getLanguage(0x37d7bb289ffc4389L, 0xb0e747f1bf5b693cL, "HTML");
+    rv[1] = MetaAdapterFactory.getLanguage(0x1600481192b0449fL, 0x957c57094436be28L, "HTML");
     rv[2] = MetaAdapterFactory.getLanguage(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, "jetbrains.mps.core.xml");
     return Arrays.asList(rv);
   }

@@ -12,8 +12,8 @@ public final class LanguageConceptSwitch {
   public static final int HtmlFile = 0;
 
   public LanguageConceptSwitch() {
-    LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x37d7bb289ffc4389L, 0xb0e747f1bf5b693cL);
-    builder.put(0x64c39dbd8efe2ff4L, HtmlFile);
+    LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x1600481192b0449fL, 0x957c57094436be28L);
+    builder.put(0x77e279c085c5db67L, HtmlFile);
     myIndex = builder.seal();
   }
 

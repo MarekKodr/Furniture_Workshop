@@ -1,26 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:6ab03c16-0fd8-40cc-9f14-ff7112a1e48d(HTML.editor)">
+<model ref="r:d448557c-c60b-4bcd-93b4-88d7d3e55b64(HTML.editor)">
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
-    <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="pvh7" ref="r:58bcf888-dd16-487b-81a4-750bd3dd5c63(HTML.structure)" implicit="true" />
+    <import index="clae" ref="r:b6416648-d0a7-4672-b142-37b7f608514b(HTML.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
-      <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
-      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
-        <property id="1186403713874" name="color" index="Vb096" />
-      </concept>
-      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -44,31 +40,30 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="6j3BrQeZ_Mj">
-    <ref role="1XX52x" to="pvh7:6j3BrQeZyZO" resolve="HtmlFile" />
-    <node concept="3EZMnI" id="5M4a$b5j9j5" role="2wV5jI">
-      <node concept="l2Vlx" id="5M4a$b5j9j7" role="2iSdaV" />
-      <node concept="3F0ifn" id="5M4a$b5j9j8" role="3EZMnx">
+  <node concept="24kQdi" id="7vyus25LwKU">
+    <ref role="1XX52x" to="clae:7vyus25LtHB" resolve="HtmlFile" />
+    <node concept="3EZMnI" id="7vyus25LwL1" role="2wV5jI">
+      <node concept="3F0ifn" id="7vyus25LwL8" role="3EZMnx">
         <property role="3F0ifm" value="html" />
-        <node concept="VechU" id="5M4a$b5j9ja" role="3F10Kt">
-          <property role="Vb096" value="darkGray" />
+        <node concept="pVoyu" id="7vyus25LwLS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0A7n" id="5M4a$b5j9jb" role="3EZMnx">
+      <node concept="3F0A7n" id="7vyus25LwLq" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <node concept="ljvvj" id="5M4a$b5j9jh" role="3F10Kt">
+      </node>
+      <node concept="3F0ifn" id="7vyus25LwLy" role="3EZMnx">
+        <node concept="pVoyu" id="7vyus25LwLU" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F0ifn" id="5M4a$b5j9jd" role="3EZMnx">
-        <property role="3F0ifm" value="" />
-        <node concept="ljvvj" id="5M4a$b5j9jg" role="3F10Kt">
+      <node concept="3F1sOY" id="7vyus25LwLM" role="3EZMnx">
+        <ref role="1NtTu8" to="clae:7vyus25LtHC" resolve="document" />
+        <node concept="pVoyu" id="7vyus25LwLW" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="5M4a$b5j9jf" role="3EZMnx">
-        <ref role="1NtTu8" to="pvh7:6j3BrQeZ_M9" resolve="document" />
-      </node>
+      <node concept="l2Vlx" id="7vyus25LwL4" role="2iSdaV" />
     </node>
   </node>
 </model>

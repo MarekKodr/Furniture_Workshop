@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="00000000-0000-4000-5f02-5beb5f025beb/i:f1be0bb(checkpoints/HTML.typesystem@descriptorclasses)">
+<model ref="00000000-0000-4000-5f02-5beb5f025beb/i:fe37293(checkpoints/HTML.typesystem@descriptorclasses)">
   <persistence version="9" />
   <attribute name="checkpoint" value="DescriptorClasses" />
   <attribute name="generation-plan" value="AspectCPS" />
   <languages />
   <imports>
-    <import index="oqp8" ref="r:3cbe8dbe-e690-4eca-85bb-7c8477160edc(HTML.typesystem)" />
+    <import index="ew3o" ref="r:96de8541-78bd-4080-b3c1-256e97d9c3ab(HTML.typesystem)" />
     <import index="qurh" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.typesystem.runtime(MPS.Core/)" />
   </imports>
   <registry>

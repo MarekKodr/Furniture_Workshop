@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:58bcf888-dd16-487b-81a4-750bd3dd5c63(HTML.structure)">
+<model ref="r:b6416648-d0a7-4672-b142-37b7f608514b(HTML.structure)">
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -38,20 +39,20 @@
       </concept>
     </language>
   </registry>
-  <node concept="1TIwiD" id="6j3BrQeZyZO">
-    <property role="EcuMT" value="7260820461724774388" />
+  <node concept="1TIwiD" id="7vyus25LtHB">
+    <property role="EcuMT" value="8638600903035050855" />
     <property role="TrG5h" value="HtmlFile" />
     <property role="19KtqR" value="true" />
     <property role="34LRSv" value="html file" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6j3BrQeZ_M9" role="1TKVEi">
-      <property role="IQ2ns" value="7260820461724785801" />
+    <node concept="1TJgyj" id="7vyus25LtHC" role="1TKVEi">
+      <property role="IQ2ns" value="8638600903035050856" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="document" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="iuxj:5SJpJa5_6F9" resolve="XmlDocument" />
     </node>
-    <node concept="PrWs8" id="6j3BrQeZyZP" role="PzmwI">
+    <node concept="PrWs8" id="7vyus25LwLe" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

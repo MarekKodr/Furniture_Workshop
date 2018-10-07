@@ -26,5 +26,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x37d7bb289ffc4389L, 0xb0e747f1bf5b693cL, 0x64c39dbd8efe2ff4L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x1600481192b0449fL, 0x957c57094436be28L, 0x77e279c085c5db67L)).seal();
 }

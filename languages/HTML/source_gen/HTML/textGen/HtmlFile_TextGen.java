@@ -12,6 +12,6 @@ public class HtmlFile_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x37d7bb289ffc4389L, 0xb0e747f1bf5b693cL, 0x64c39dbd8efe2ff4L, 0x64c39dbd8efe5c89L, "document")));
+    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x1600481192b0449fL, 0x957c57094436be28L, 0x77e279c085c5db67L, 0x77e279c085c5db68L, "document")));
   }
 }

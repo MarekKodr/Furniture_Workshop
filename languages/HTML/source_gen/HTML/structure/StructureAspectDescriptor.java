@@ -40,12 +40,12 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
 
   private static ConceptDescriptor createDescriptorForHtmlFile() {
-    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTML", "HtmlFile", 0x37d7bb289ffc4389L, 0xb0e747f1bf5b693cL, 0x64c39dbd8efe2ff4L);
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("HTML", "HtmlFile", 0x1600481192b0449fL, 0x957c57094436be28L, 0x77e279c085c5db67L);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
-    b.origin("r:58bcf888-dd16-487b-81a4-750bd3dd5c63(HTML.structure)/7260820461724774388");
+    b.origin("r:b6416648-d0a7-4672-b142-37b7f608514b(HTML.structure)/8638600903035050855");
     b.version(2);
-    b.aggregate("document", 0x64c39dbd8efe5c89L).target(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5e2f66f285946ac9L).optional(false).ordered(true).multiple(false).origin("7260820461724785801").done();
+    b.aggregate("document", 0x77e279c085c5db68L).target(0x479c7a8c02f943b5L, 0x9139d910cb22f298L, 0x5e2f66f285946ac9L).optional(false).ordered(true).multiple(false).origin("8638600903035050856").done();
     b.alias("html file");
     return b.create();
   }

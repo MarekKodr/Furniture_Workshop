@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="00000000-0000-4000-5f02-5beb5f025beb/i:fa51f76(checkpoints/HTML.textGen@descriptorclasses)">
+<model ref="00000000-0000-4000-5f02-5beb5f025beb/i:f8c5599(checkpoints/HTML.textGen@descriptorclasses)">
   <persistence version="9" />
   <attribute name="checkpoint" value="DescriptorClasses" />
   <attribute name="generation-plan" value="AspectCPS" />
   <languages />
   <imports>
-    <import index="51pd" ref="r:a3511ea2-215b-451c-8f08-ac57623fb908(HTML.textGen)" />
+    <import index="zytq" ref="r:7f663aff-4fb1-40f6-8fd8-86242b1bf823(HTML.textGen)" />
     <import index="tpcf" ref="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
-    <import index="pvh7" ref="r:58bcf888-dd16-487b-81a4-750bd3dd5c63(HTML.structure)" />
+    <import index="clae" ref="r:b6416648-d0a7-4672-b142-37b7f608514b(HTML.structure)" />
     <import index="yfwt" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.text.rt(MPS.Core/)" />
     <import index="mhfm" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/java:org.jetbrains.annotations(Annotations/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
@@ -220,11 +220,11 @@
     <node concept="39e2AJ" id="1" role="39e2AI">
       <property role="39e3Y2" value="GetExtension" />
       <node concept="39e2AG" id="5" role="39e3Y0">
-        <ref role="39e2AK" to="51pd:6j3BrQeZ_Mu" resolve="HtmlFile_TextGen" />
+        <ref role="39e2AK" to="zytq:7vyus25LwLY" resolve="HtmlFile_TextGen" />
         <node concept="385nmt" id="6" role="385vvn">
           <property role="385vuF" value="HtmlFile_TextGen" />
           <node concept="2$VJBW" id="8" role="385v07">
-            <property role="2$VJBR" value="7260820461724785822" />
+            <property role="2$VJBR" value="8638600903035063422" />
             <node concept="2x4n5u" id="9" role="3iCydw">
               <property role="2x4mPI" value="ConceptTextGenDeclaration" />
               <property role="2x4o5l" value="false" />
@@ -244,11 +244,11 @@
     <node concept="39e2AJ" id="2" role="39e2AI">
       <property role="39e3Y2" value="GetFilename" />
       <node concept="39e2AG" id="b" role="39e3Y0">
-        <ref role="39e2AK" to="51pd:6j3BrQeZ_Mu" resolve="HtmlFile_TextGen" />
+        <ref role="39e2AK" to="zytq:7vyus25LwLY" resolve="HtmlFile_TextGen" />
         <node concept="385nmt" id="c" role="385vvn">
           <property role="385vuF" value="HtmlFile_TextGen" />
           <node concept="2$VJBW" id="e" role="385v07">
-            <property role="2$VJBR" value="7260820461724785822" />
+            <property role="2$VJBR" value="8638600903035063422" />
             <node concept="2x4n5u" id="f" role="3iCydw">
               <property role="2x4mPI" value="ConceptTextGenDeclaration" />
               <property role="2x4o5l" value="false" />
@@ -268,11 +268,11 @@
     <node concept="39e2AJ" id="3" role="39e2AI">
       <property role="39e3Y2" value="TextGenClass" />
       <node concept="39e2AG" id="h" role="39e3Y0">
-        <ref role="39e2AK" to="51pd:6j3BrQeZ_Mu" resolve="HtmlFile_TextGen" />
+        <ref role="39e2AK" to="zytq:7vyus25LwLY" resolve="HtmlFile_TextGen" />
         <node concept="385nmt" id="i" role="385vvn">
           <property role="385vuF" value="HtmlFile_TextGen" />
           <node concept="2$VJBW" id="k" role="385v07">
-            <property role="2$VJBR" value="7260820461724785822" />
+            <property role="2$VJBR" value="8638600903035063422" />
             <node concept="2x4n5u" id="l" role="3iCydw">
               <property role="2x4mPI" value="ConceptTextGenDeclaration" />
               <property role="2x4o5l" value="false" />
@@ -305,7 +305,7 @@
     <node concept="3Tm1VV" id="q" role="1B3o_S">
       <node concept="cd27G" id="u" role="lGtFl">
         <node concept="3u3nmq" id="v" role="cd27D">
-          <property role="3u3nmv" value="7260820461724785822" />
+          <property role="3u3nmv" value="8638600903035063422" />
         </node>
       </node>
     </node>
@@ -313,7 +313,7 @@
       <ref role="3uigEE" to="yfwt:~TextGenDescriptorBase" resolve="TextGenDescriptorBase" />
       <node concept="cd27G" id="w" role="lGtFl">
         <node concept="3u3nmq" id="x" role="cd27D">
-          <property role="3u3nmv" value="7260820461724785822" />
+          <property role="3u3nmv" value="8638600903035063422" />
         </node>
       </node>
     </node>
@@ -322,14 +322,14 @@
       <node concept="3cqZAl" id="y" role="3clF45">
         <node concept="cd27G" id="C" role="lGtFl">
           <node concept="3u3nmq" id="D" role="cd27D">
-            <property role="3u3nmv" value="7260820461724785822" />
+            <property role="3u3nmv" value="8638600903035063422" />
           </node>
         </node>
       </node>
       <node concept="3Tm1VV" id="z" role="1B3o_S">
         <node concept="cd27G" id="E" role="lGtFl">
           <node concept="3u3nmq" id="F" role="cd27D">
-            <property role="3u3nmv" value="7260820461724785822" />
+            <property role="3u3nmv" value="8638600903035063422" />
           </node>
         </node>
       </node>
@@ -342,7 +342,7 @@
               <ref role="3uigEE" to="kpbf:~TextGenSupport" resolve="TextGenSupport" />
               <node concept="cd27G" id="O" role="lGtFl">
                 <node concept="3u3nmq" id="P" role="cd27D">
-                  <property role="3u3nmv" value="7260820461724785822" />
+                  <property role="3u3nmv" value="8638600903035063422" />
                 </node>
               </node>
             </node>
@@ -353,31 +353,31 @@
                   <ref role="3cqZAo" node="_" resolve="ctx" />
                   <node concept="cd27G" id="U" role="lGtFl">
                     <node concept="3u3nmq" id="V" role="cd27D">
-                      <property role="3u3nmv" value="7260820461724785822" />
+                      <property role="3u3nmv" value="8638600903035063422" />
                     </node>
                   </node>
                 </node>
                 <node concept="cd27G" id="T" role="lGtFl">
                   <node concept="3u3nmq" id="W" role="cd27D">
-                    <property role="3u3nmv" value="7260820461724785822" />
+                    <property role="3u3nmv" value="8638600903035063422" />
                   </node>
                 </node>
               </node>
               <node concept="cd27G" id="R" role="lGtFl">
                 <node concept="3u3nmq" id="X" role="cd27D">
-                  <property role="3u3nmv" value="7260820461724785822" />
+                  <property role="3u3nmv" value="8638600903035063422" />
                 </node>
               </node>
             </node>
             <node concept="cd27G" id="N" role="lGtFl">
               <node concept="3u3nmq" id="Y" role="cd27D">
-                <property role="3u3nmv" value="7260820461724785822" />
+                <property role="3u3nmv" value="8638600903035063422" />
               </node>
             </node>
           </node>
           <node concept="cd27G" id="K" role="lGtFl">
             <node concept="3u3nmq" id="Z" role="cd27D">
-              <property role="3u3nmv" value="7260820461724785822" />
+              <property role="3u3nmv" value="8638600903035063422" />
             </node>
           </node>
         </node>
@@ -387,7 +387,7 @@
               <ref role="3cqZAo" node="J" resolve="tgs" />
               <node concept="cd27G" id="15" role="lGtFl">
                 <node concept="3u3nmq" id="16" role="cd27D">
-                  <property role="3u3nmv" value="7260820461724790279" />
+                  <property role="3u3nmv" value="8638600903035081517" />
                 </node>
               </node>
             </node>
@@ -403,45 +403,45 @@
                   </node>
                   <node concept="cd27G" id="1e" role="lGtFl">
                     <node concept="3u3nmq" id="1f" role="cd27D">
-                      <property role="3u3nmv" value="7260820461724790335" />
+                      <property role="3u3nmv" value="8638600903035081573" />
                     </node>
                   </node>
                 </node>
                 <node concept="3TrEf2" id="1a" role="2OqNvi">
-                  <ref role="3Tt5mk" to="pvh7:6j3BrQeZ_M9" resolve="document" />
+                  <ref role="3Tt5mk" to="clae:7vyus25LtHC" resolve="document" />
                   <node concept="cd27G" id="1g" role="lGtFl">
                     <node concept="3u3nmq" id="1h" role="cd27D">
-                      <property role="3u3nmv" value="7260820461724791368" />
+                      <property role="3u3nmv" value="8638600903035084604" />
                     </node>
                   </node>
                 </node>
                 <node concept="cd27G" id="1b" role="lGtFl">
                   <node concept="3u3nmq" id="1i" role="cd27D">
-                    <property role="3u3nmv" value="7260820461724790852" />
+                    <property role="3u3nmv" value="8638600903035083535" />
                   </node>
                 </node>
               </node>
               <node concept="cd27G" id="18" role="lGtFl">
                 <node concept="3u3nmq" id="1j" role="cd27D">
-                  <property role="3u3nmv" value="7260820461724790279" />
+                  <property role="3u3nmv" value="8638600903035081517" />
                 </node>
               </node>
             </node>
             <node concept="cd27G" id="14" role="lGtFl">
               <node concept="3u3nmq" id="1k" role="cd27D">
-                <property role="3u3nmv" value="7260820461724790279" />
+                <property role="3u3nmv" value="8638600903035081517" />
               </node>
             </node>
           </node>
           <node concept="cd27G" id="11" role="lGtFl">
             <node concept="3u3nmq" id="1l" role="cd27D">
-              <property role="3u3nmv" value="7260820461724790279" />
+              <property role="3u3nmv" value="8638600903035081517" />
             </node>
           </node>
         </node>
         <node concept="cd27G" id="I" role="lGtFl">
           <node concept="3u3nmq" id="1m" role="cd27D">
-            <property role="3u3nmv" value="7260820461724785822" />
+            <property role="3u3nmv" value="8638600903035063422" />
           </node>
         </node>
       </node>
@@ -452,13 +452,13 @@
           <ref role="3uigEE" to="yfwt:~TextGenContext" resolve="TextGenContext" />
           <node concept="cd27G" id="1p" role="lGtFl">
             <node concept="3u3nmq" id="1q" role="cd27D">
-              <property role="3u3nmv" value="7260820461724785822" />
+              <property role="3u3nmv" value="8638600903035063422" />
             </node>
           </node>
         </node>
         <node concept="cd27G" id="1o" role="lGtFl">
           <node concept="3u3nmq" id="1r" role="cd27D">
-            <property role="3u3nmv" value="7260820461724785822" />
+            <property role="3u3nmv" value="8638600903035063422" />
           </node>
         </node>
       </node>
@@ -466,19 +466,19 @@
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
         <node concept="cd27G" id="1s" role="lGtFl">
           <node concept="3u3nmq" id="1t" role="cd27D">
-            <property role="3u3nmv" value="7260820461724785822" />
+            <property role="3u3nmv" value="8638600903035063422" />
           </node>
         </node>
       </node>
       <node concept="cd27G" id="B" role="lGtFl">
         <node concept="3u3nmq" id="1u" role="cd27D">
-          <property role="3u3nmv" value="7260820461724785822" />
+          <property role="3u3nmv" value="8638600903035063422" />
         </node>
       </node>
     </node>
     <node concept="cd27G" id="t" role="lGtFl">
       <node concept="3u3nmq" id="1v" role="cd27D">
-        <property role="3u3nmv" value="7260820461724785822" />
+        <property role="3u3nmv" value="8638600903035063422" />
       </node>
     </node>
   </node>
@@ -671,7 +671,7 @@
                 <node concept="liA8E" id="2N" role="2OqNvi">
                   <ref role="37wK5l" to="wyt6:~Object.equals(java.lang.Object):boolean" resolve="equals" />
                   <node concept="35c_gC" id="2Q" role="37wK5m">
-                    <ref role="35c_gD" to="pvh7:6j3BrQeZyZO" resolve="HtmlFile" />
+                    <ref role="35c_gD" to="clae:7vyus25LtHB" resolve="HtmlFile" />
                   </node>
                 </node>
               </node>
@@ -741,13 +741,13 @@
             <property role="Xl_RC" value="html" />
             <node concept="cd27G" id="3c" role="lGtFl">
               <node concept="3u3nmq" id="3d" role="cd27D">
-                <property role="3u3nmv" value="7260820461724788598" />
+                <property role="3u3nmv" value="8638600903035078688" />
               </node>
             </node>
           </node>
           <node concept="cd27G" id="3b" role="lGtFl">
             <node concept="3u3nmq" id="3e" role="cd27D">
-              <property role="3u3nmv" value="7260820461724788599" />
+              <property role="3u3nmv" value="8638600903035078689" />
             </node>
           </node>
         </node>

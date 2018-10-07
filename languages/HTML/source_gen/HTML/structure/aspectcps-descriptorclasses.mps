@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="00000000-0000-4000-5f02-5beb5f025beb/i:f4bc80c(checkpoints/HTML.structure@descriptorclasses)">
+<model ref="00000000-0000-4000-5f02-5beb5f025beb/i:f341751(checkpoints/HTML.structure@descriptorclasses)">
   <persistence version="9" />
   <attribute name="checkpoint" value="DescriptorClasses" />
   <attribute name="generation-plan" value="AspectCPS" />
   <languages />
   <imports>
-    <import index="pvh7" ref="r:58bcf888-dd16-487b-81a4-750bd3dd5c63(HTML.structure)" />
+    <import index="clae" ref="r:b6416648-d0a7-4672-b142-37b7f608514b(HTML.structure)" />
     <import index="ksn4" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.lang.smodel(MPS.Core/)" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" />
     <import index="ze1i" ref="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea/java:jetbrains.mps.smodel.runtime(MPS.Core/)" />
@@ -280,7 +280,7 @@
                         <ref role="37wK5l" to="ze1i:~ConceptPresentationBuilder.presentationByName():jetbrains.mps.smodel.runtime.ConceptPresentationBuilder" resolve="presentationByName" />
                         <node concept="cd27G" id="J" role="lGtFl">
                           <node concept="3u3nmq" id="K" role="cd27D">
-                            <property role="3u3nmv" value="7260820461724774388" />
+                            <property role="3u3nmv" value="8638600903035050855" />
                           </node>
                         </node>
                       </node>
@@ -395,10 +395,10 @@
               <node concept="1pGfFk" id="1p" role="2ShVmc">
                 <ref role="37wK5l" to="ksn4:~LanguageConceptIndexBuilder.&lt;init&gt;(long,long)" resolve="LanguageConceptIndexBuilder" />
                 <node concept="1adDum" id="1q" role="37wK5m">
-                  <property role="1adDun" value="0x37d7bb289ffc4389L" />
+                  <property role="1adDun" value="0x1600481192b0449fL" />
                 </node>
                 <node concept="1adDum" id="1r" role="37wK5m">
-                  <property role="1adDun" value="0xb0e747f1bf5b693cL" />
+                  <property role="1adDun" value="0x957c57094436be28L" />
                 </node>
               </node>
             </node>
@@ -412,7 +412,7 @@
             <node concept="liA8E" id="1u" role="2OqNvi">
               <ref role="37wK5l" to="ksn4:~LanguageConceptIndexBuilder.put(long,int):jetbrains.mps.lang.smodel.LanguageConceptIndexBuilder" resolve="put" />
               <node concept="1adDum" id="1v" role="37wK5m">
-                <property role="1adDun" value="0x64c39dbd8efe2ff4L" />
+                <property role="1adDun" value="0x77e279c085c5db67L" />
               </node>
               <node concept="37vLTw" id="1w" role="37wK5m">
                 <ref role="3cqZAo" node="13" resolve="HtmlFile" />
@@ -670,13 +670,13 @@
                   <property role="Xl_RC" value="HtmlFile" />
                 </node>
                 <node concept="1adDum" id="3a" role="37wK5m">
-                  <property role="1adDun" value="0x37d7bb289ffc4389L" />
+                  <property role="1adDun" value="0x1600481192b0449fL" />
                 </node>
                 <node concept="1adDum" id="3b" role="37wK5m">
-                  <property role="1adDun" value="0xb0e747f1bf5b693cL" />
+                  <property role="1adDun" value="0x957c57094436be28L" />
                 </node>
                 <node concept="1adDum" id="3c" role="37wK5m">
-                  <property role="1adDun" value="0x64c39dbd8efe2ff4L" />
+                  <property role="1adDun" value="0x77e279c085c5db67L" />
                 </node>
               </node>
             </node>
@@ -728,7 +728,7 @@
             <node concept="liA8E" id="3r" role="2OqNvi">
               <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2.origin(java.lang.String):jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2" resolve="origin" />
               <node concept="Xl_RD" id="3s" role="37wK5m">
-                <property role="Xl_RC" value="r:58bcf888-dd16-487b-81a4-750bd3dd5c63(HTML.structure)/7260820461724774388" />
+                <property role="Xl_RC" value="r:b6416648-d0a7-4672-b142-37b7f608514b(HTML.structure)/8638600903035050855" />
               </node>
             </node>
           </node>
@@ -763,7 +763,7 @@
                             <property role="Xl_RC" value="document" />
                           </node>
                           <node concept="1adDum" id="3L" role="37wK5m">
-                            <property role="1adDun" value="0x64c39dbd8efe5c89L" />
+                            <property role="1adDun" value="0x77e279c085c5db68L" />
                           </node>
                         </node>
                       </node>
@@ -804,7 +804,7 @@
               <node concept="liA8E" id="3_" role="2OqNvi">
                 <ref role="37wK5l" to="bzg8:~ConceptDescriptorBuilder2$AggregationLinkBuilder.origin(java.lang.String):jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2$AggregationLinkBuilder" resolve="origin" />
                 <node concept="Xl_RD" id="3S" role="37wK5m">
-                  <property role="Xl_RC" value="7260820461724785801" />
+                  <property role="Xl_RC" value="8638600903035050856" />
                 </node>
               </node>
             </node>
